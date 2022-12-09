@@ -1,0 +1,25 @@
+
+///////////////////////////////////////////////
+//
+//   Configuration for our live server extension
+//   Based on this gist
+//   https://gist.github.com/prof3ssorSt3v3/edb2632a362b3731274cfab84e9973f9
+// 
+//   Warning: Path needs to be updated when project is created or moved
+//   Mac users will need to replace path to cert and key files
+//
+///////////////////////////////////////////////
+
+
+{
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.https": {
+        "enable": true,
+        "cert": "C:\\Users\\kmerinsky\\Desktop\\Projects\\templates\\aframe-template\\.vscode\\certs\\localhost.pem",
+        "key": "C:\\Users\\kmerinsky\\Desktop\\Projects\\templates\\aframe-template\\.vscode\\certs\\localhost.key",
+        "passphrase": "c3nt3r4imm3rsiv3m3dia"
+    },
+    "liveServer.settings.useLocalIp": true,
+}

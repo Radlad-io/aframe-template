@@ -1,0 +1,57 @@
+
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+:root {
+    --primary-color: rgba(185,185,185,.5);
+}
+
+button {
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px; 
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+}
+
+
+/* Hides Aframe's default VR button */
+.a-enter-vr-button{
+    display: none;
+}
+
+/* Hides Aframe's default AR button */
+.a-enter-ar-button{
+    display: none;
+}
+
+#arBtn {
+    position: fixed; 
+    z-index: 1000; 
+    bottom: 25px; 
+}
+
+#splash-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#splash-screen p {
+}
+
+#splash-screen h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}

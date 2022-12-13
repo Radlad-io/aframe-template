@@ -1,6 +1,7 @@
 
 * {
     font-family: 'Chakra Petch', sans-serif;
+    /* border: 1px dotted red; */
 }
 
 :root {
@@ -48,6 +49,9 @@ button {
 }
 
 #splash-screen p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 #splash-screen h1 {

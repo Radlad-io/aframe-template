@@ -4,25 +4,12 @@
 //
 ///////////////////////////////////////////////
 
-export const templateComponent = {
-  schema: {},
+AFRAME.registerSystem("my-component", {
+  schema: {}, // System schema. Parses into `this.data`.
+
   init() {
-    // Called when scene is initialized
-    console.log("Template system registered");
+    // Called on scene initialization.
   },
-  update() {
-    // Called when component is attached
-  },
-  tick(time, timeDelta) {
-    // Called on every frame
-  },
-  remove() {
-    // Can be setup to remove the component, logic or something from the scene
-  },
-  pause() {
-    // Called when the entity or scene pauses
-  },
-  play() {
-    // called when the entity or scene resumes
-  },
-};
+
+  // Other handlers and methods.
+});
